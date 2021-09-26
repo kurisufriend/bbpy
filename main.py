@@ -23,4 +23,4 @@ async def on_message(message):
             await message.channel.send(type(e).__name__+str(e.args))
 
 
-dclient.run("NDgzNzg2NTE1NjM0MTkyNDIz.W4SPTQ.Om0LlT_Pgc7uLDNCfMvXXpPqe7k", bot=True)
+dclient.run("token", bot=True)
